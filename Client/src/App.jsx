@@ -4,7 +4,7 @@ import { Chat } from './Chat'
 import music from './mixkit-tile-game-reveal-960.wav';
 
 
-const socket = io.connect("https://chat-app-ashy-tau-42.vercel.app/")
+const socket = io.connect("https://chat-app-o59v.vercel.app")
 
 
 const App = () => {
