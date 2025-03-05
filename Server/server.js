@@ -11,6 +11,7 @@ const io = new Server(server, {
     "origin": ["https://deploy-mern-1whq.vercel.app"],
 
     methods: ["GET", "PUT"],
+    credential:true
   },
 });
 
