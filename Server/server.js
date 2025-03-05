@@ -8,7 +8,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    "origin": ["https://deploy-mern-1whq.vercel.app"],
+    "origin": ["https://chat-app-o59v.vercel.app/"],
 
     methods: ["GET", "PUT"],
     credential:true
